@@ -29,8 +29,8 @@ admin_filter=filters.create(is_admin)
 async def start(client, message):
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/zkp143'),
+            InlineKeyboardButton('🧩 Source', url='https://t.me/zkp143')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
